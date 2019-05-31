@@ -12,6 +12,7 @@ width: 25%;
 border: 10% solid black;
 height: 80%;
 width: 80%;
+background-color: aquamarine;
 }
 section{
     display: block;
@@ -27,9 +28,10 @@ h1,p{
     widows: 50%;;
     border: dashed grey;
     align-items: center;
+    background-color: blueviolet;
 
 }
-#Content{
+#Content:hover{
     color: blueviolet;
     height: 300px;
     width: 300px;
@@ -38,6 +40,17 @@ h1,p{
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 600px;
-    padding: 2%;    
+    padding: 2%; 
+    background-color: green;  
 }
+
+#margin{
+   background-color: gray;
+   height: 50%;
+   widows:50%;
+   color: black;
+
+
+}
+
 
