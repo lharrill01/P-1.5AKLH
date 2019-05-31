@@ -1,8 +1,9 @@
 'use strict';
 
 
-let btntest = document.getElementById("btntest").addEventListener("click", textDisappear);
+let btntest = document.getElementById("btntest").addEventListener("mouseover", textDisappear);
 
 function textDisappear(){
-    document.getElementsByClassName("con").visibility = hidden;
+    for(let i = 0; i <4; i++){
+    document.getElementsByClassName("con").item(i).style.visibility = "hidden";    }
 }
