@@ -1,0 +1,26 @@
+button
+{
+    width: 250px;
+    background-color: #333333;
+ }
+.navmenu
+{
+    background-color: #333333;
+    overflow: hidden;
+    
+   }
+.navmenu a
+{
+
+float: left;
+display: block;
+color: aliceblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+button:hover
+{
+    color: yellow
+    background-color: #6a6a6a;
+}

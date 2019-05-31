@@ -1,0 +1,34 @@
+#border{
+    position: relative;
+    width: 1200;
+    height: 1000;
+    background-color:  saddlebrown;
+}
+#padding{
+
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-sizing: border-box;
+    width: 800px;
+    height: 500px;
+    /* padding: 20px; */
+    /* border: 20px solid chocolate; */
+    background-color: burlywood;
+    border: solid 2px gainsboro;
+    
+}
+#content{
+    position: absolute;
+    top: 225px;
+    left: 350px;
+box-sizing: content-box;
+width: 100px;
+height: 50px;
+
+border: 50px solid salmon;
+/* margin: 25%; */
+background-color: beige;
+
+}
+
