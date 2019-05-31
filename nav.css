@@ -1,4 +1,4 @@
-button
+.button
 {
     width: 250px;
     background-color: #333333;
@@ -21,6 +21,18 @@ text-decoration: none;
 }
 button:hover
 {
-    color: yellow
+    color: yellow;
     background-color: #6a6a6a;
+}
+#Content{
+    color: blueviolet;
+    height: 300px;
+    width: 300px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 600px;
+    padding: 2%;
+    background-color: rgb(red, green, blue);
 }
