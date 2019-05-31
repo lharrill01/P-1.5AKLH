@@ -4,27 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="test.css" type="text/css" rel="stylesheet">
-    <title>Test</title>
+    <!-- <link href="nav.css" type="text/css" rel="stylesheet"> -->
+    <title>CSS Block Model:Content Page</title>
+    <link href="main.css" type="text/css" rel="stylesheet">
+
 </head>
 <body>
-        <nav>
-                <div class="navmenu">
-                
-                    <tr>
-                        <th><button type="menu"><a href="index.html">Home</a></button></th>
-                        <th><button type="menu"><a href="margin.html">Margin</a></button></th>
-                        <th><button type="menu"><a href="border.html">Border</a></button></th>
-                        <th><button type="menu"><a href="padding.html">Padding</a></button></th>
-                        <th><button type="menu"><a href="content.html">Content</a></button></th>
-                        <th><button type="menu"><a href="test.html">Test</a></button></th>
-                    </tr>
-                </div>
-            </nav>
-            <div id="padding">
-            <section id="content">
-                <img src="boxmodel-image.png">
-            </section>
+    <!-- Nav bar used to link all of the pages. used a verticle table to order the links -->
+    <nav>
+        <div class="navmenu">
+        
+            <tr>
+                <th><button type="menu"><a href="index.html">Home</a></button></th>
+                <th><button type="menu"><a href="margin.html">Margin</a></button></th>
+                <th><button type="menu"><a href="border.html">Border</a></button></th>
+                <th><button type="menu"><a href="padding.html">Padding</a></button></th>
+                <th><button type="menu"><a href="content.html">Content</a></button></th>
+                <th><button id="btntest" type="menu"><a href="test.html">Test</a></button></th>
+            </tr>
+        </div>
+    </nav>
+
+    <!--Content starts here  -->
+    <!-- <h1>Margin</h1>
+    <p></p>
+    <section id="Border"><h1>Padding</h1>
+    <h1>Border</h1> -->
+        <div id="margin_2">
+            <p class="mar"> A margin is the outerspace around a border. A margin is transparent, and is used to format a document, separate boxes from other boxes.</p>
+        <div id="border_2">
+            <p class="bor"> A border surrounds the perimeter of the padding and the content, and can vary in size, shape, and thickness</p>
+            <div id="padding_2">
+                <p class="pad"> Padding provides a buffer space between the content and border of a webpage.  </p>
+                <section id="Content"><h1>Content</h1>
+                    
+                    <p class="con">The CSS Block Model is a tool used to organize HTML elements such as the division "div", paragraph "p", and "section" tags. </p>
+                    <p class="con">The CSS Block Model can be organized into 4 categories Content, Padding, Border, and Margin. </p>
+                    <p class="con"> Of these categories Content is the most important, it is the reason for the visit to the webpage.</p>
+                    <p class="con"> However that does not mean the other categories are not important. They play an important role in delivering content to the web browser and viewer.</p>
+
+                </section>
             </div>
+        </div>
+        </div>
+
+        <script src="main.js"></script>
 </body>
 </html>
